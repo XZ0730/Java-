@@ -6,7 +6,8 @@ public class Customer {
     //获取当前时间
     private LocalDate now = LocalDate.now();
 
-    public Customer() {}
+    public Customer() {
+    }
 
     public Customer(String name, int frequency, LocalDate now) {
         Name = name;

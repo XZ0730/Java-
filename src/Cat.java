@@ -4,7 +4,9 @@ public abstract class Cat {
     protected String Sex;
     protected double SinglePrice;
 
-    public Cat(){}
+    public Cat() {
+    }
+
     public Cat(String catName, int catAge, String sex, double singlePrice) {
         CatName = catName;
         CatAge = catAge;
